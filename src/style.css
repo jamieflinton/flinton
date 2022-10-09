@@ -1,0 +1,193 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+html,
+body
+{
+    background-color: black;
+    height: 100vh;
+    font-family: 'Poppins';
+    background-image: url("../src/assests/wave.svg");
+
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+.canvas
+{
+    z-index: 16;
+    width: 100%;
+    margin-top: 3vw;
+    outline: 2px;
+    outline-style: solid;
+    outline-color: #FF004F;
+}
+
+#header
+{
+    position: fixed;
+    font-size: 5vw;
+    color: #ffffff;
+    z-index: 5;
+    margin-top: 4vw;
+    margin-left: 4vw;
+    line-height: 3.7vw;
+}
+
+#jf
+{
+    z-index: 5;
+    width: 100px;
+    margin: auto;
+    padding-top: 1.3vw;
+}
+
+#waves
+{
+    z-index: -1;
+    width: 115%;
+   right: 0;
+    height: 100%;
+}
+
+#photo
+{
+    outline: #FF004F;
+    outline-style: solid;
+    outline-width: 2px;
+    width: 30vw;
+
+    position: absolute;
+    right: 0;
+    background-color: black;
+    color: white;
+    font-family: monospace;
+    padding: 1vw;
+    font-size: 0.5em;
+}
+
+#box
+{
+    outline: #FF004F;
+    outline-style: solid;
+    outline-width: 2px;
+    width: 5vw;
+    height: 5vw;
+    position: absolute;
+    right: 5vw;
+    bottom: 1vw;
+    background-color: #FF004F;
+}
+
+#box2
+{
+    outline: #FF004F;
+    outline-style: solid;
+    outline-width: 2px;
+    width: 5vw;
+    height: 5vw;
+    position: absolute;
+    right: 4vw;
+    bottom: 0;
+    background-color: black;
+}
+#box3
+{
+    outline: #FF004F;
+    outline-style: solid;
+    outline-width: 2px;
+    width: 5vw;
+    height: 5vw;
+    position: absolute;
+    right: 3vw;
+    bottom: -1vw;
+    background-color: black;
+}
+
+#logo
+{
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    width: 15vw;
+    margin-top: 3vw;
+    z-index: 11;
+
+}
+
+.links
+{
+    color: white;
+    font-family: Adinaregular;
+    font-size: 0.8vw;
+    position: fixed;
+    z-index: 100;
+    margin-left: 4vw;
+    margin-top: 2.6vw;
+    list-style: none;
+}
+
+#link2
+{
+    margin-left: 20vw;
+}
+
+#link3
+{
+    right: 0;
+    margin-right: 4vw;
+}
+
+#link4
+{
+    right: 0;
+    margin-right: 13vw;
+}
+
+#subheader
+{
+    position: fixed;
+    z-index: 7;
+    margin-top: 12vw;
+    width: auto;
+
+}
+
+#h1{
+    color: white;
+    font-family: monospace;
+    font-size: 1vw;
+}
+
+#titlebox{
+    width: 20vw;
+    height: 2vh;
+    color: white;
+    font-size: 0.2vw;
+    font-family: monospace;
+    padding: 10vw;
+    position: absolute;
+}
+
+#qr
+{
+    margin-left: 1.2vw;
+    width: 12vw;
+}
+
+p4 {
+    font-family: adina;
+}
+
+p3 {
+    font-family: adinaregular;
+}
