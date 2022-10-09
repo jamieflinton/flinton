@@ -11,7 +11,7 @@ body
     background-color: black;
     height: 100vh;
     font-family: 'Poppins';
-    background-image: url("../assests/wave.svg");
+    background-image: url("../src/assests/wave.svg");
 
 }
 
@@ -65,16 +65,14 @@ body
     outline-style: solid;
     outline-width: 2px;
     width: 30vw;
-
     position: absolute;
     right: 0;
     background-color: black;
     color: white;
     font-family: monospace;
-    padding: 1vw;
-    font-size: 0.5em;
     overflow-wrap: break-word;
-    word-break: break-all;
+    padding: 1vw;
+    font-size: 0.3vw;
 }
 
 #box
@@ -174,7 +172,7 @@ body
     width: 20vw;
     height: 2vh;
     color: white;
-    font-size: 0.2vw;
+    font-size: 0.3vw;
     font-family: monospace;
     padding: 10vw;
     position: absolute;
