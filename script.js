@@ -19,7 +19,7 @@ const target = new THREE.WebGLRenderTarget(window.innerwWidth, window.innerHeigh
   encoding: THREE.sRGBEncoding,
 });
 target.samples = 8
-renderer.setPixelRatio( window.devicePixelRatio/1 );
+renderer.setPixelRatio( window.devicePixelRatio/0.5 );
 renderer.setClearColor(0x000000, 0.0);
 renderer.outputEncoding = THREE.sRGBEncoding
 renderer.toneMapping = THREE.ACESFilmicToneMapping
