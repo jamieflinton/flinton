@@ -1,3 +1,5 @@
+import {OrbitControls} from '../js/OrbitControls.js';
+import {GLTFLoader} from "../js/GLTFLoader.js";
 
 const canvas = document.querySelector('canvas');
 //THREE.ColorManagement.legacyMode = false
