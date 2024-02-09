@@ -1,6 +1,6 @@
 
 const canvas = document.querySelector('canvas');
-THREE.ColorManagement.legacyMode = false
+//THREE.ColorManagement.legacyMode = false
 const sizes = {
   width: window.innerWidth,
   height: window.innerHeight
